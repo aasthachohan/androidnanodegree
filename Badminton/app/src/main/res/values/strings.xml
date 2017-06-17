@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Badminton</string>
+    <string name="personA">Player A</string>
+    <string name="pointsA">0</string>
+    <string name="point_1_A">1 Point</string>
+    <string name="foul_A">Foul</string>
+    <string name="letA">Let</string>
+
+
+    <string name="personB">Player B</string>
+    <string name="pointsB">0</string>
+    <string name="point_1_B">1 Point</string>
+    <string name="foul_B">Foul</string>
+    <string name="letB">Let</string>
+
+    <string name="reset">RESET</string>
+    <string name="result">SHOW RESULTS</string>
+</resources>
