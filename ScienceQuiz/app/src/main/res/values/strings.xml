@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">"Science Quiz "</string>
+    <string name="science_quiz_heading">Science Quiz</string>
+    <string name="negative_marks">(NOTE- Each question carries four marks. A correct answer will be awarded four marks; a wrong answer will result in a one-mark deduction.)</string>
+
+    <string name="ques1">Q1.</string>
+    <string name="first_ques">Which of the following is used in pencils?</string>
+    <string name="option_1A">A.  Graphite</string>
+    <string name="option_1B">B.  Silicon</string>
+    <string name="option_1C">C.  Charcoal</string>
+    <string name="option_1D">D.  Phosphorous</string>
+    <string name="result_of_ques_1"> </string>
+
+    <string name="ques2">Q2.</string>
+    <string name="second_ques">Non stick cooking utensils are coated with - </string>
+    <string name="option_2A">A.  Teflon</string>
+    <string name="option_2B">B.  PVC</string>
+    <string name="option_2C">C.  Black paint</string>
+    <string name="option_2D">D.  Polystyrene</string>
+    <string name="result_of_ques_2"> </string>
+
+    <string name="ques3">Q3.</string>
+    <string name="third_ques">The gas usually filled in the electric bulb is - </string>
+    <string name="option_3A">A.  Hydrogen</string>
+    <string name="option_3B">B.  Nitrogen</string>
+    <string name="option_3C">C.  Carbon Dioxide</string>
+    <string name="option_3D">D.  Oxygen</string>
+    <string name="result_of_ques_3"> </string>
+
+    <string name="ques4">Q4.</string>
+    <string name="fourth_ques">The hardest substance available on earth is - </string>
+    <string name="option_4A">A.  Gold</string>
+    <string name="option_4B">B.  Iron</string>
+    <string name="option_4C">C.  Diamond</string>
+    <string name="option_4D">D.  Platinum</string>
+    <string name="result_of_ques_4"> </string>
+
+    <string name="ques5">Q5.</string>
+    <string name="fifth_ques">Which of the gas is not known as green house gas?</string>
+    <string name="option_5A">A.  Methane</string>
+    <string name="option_5B">B.  Nitrous Oxide</string>
+    <string name="option_5C">C.  Carbon Dioxide</string>
+    <string name="option_5D">D.  Hydrogen</string>
+    <string name="result_of_ques_5"> </string>
+
+    <string name="ques6">Q6.</string>
+    <string name="sixth_ques">How many lungs does the human body have?</string>
+    <string name="result_of_ques_6"> </string>
+
+    <string name="ques7">Q7.</string>
+    <string name="seventh_ques">How many planets are there in our solar system ?</string>
+    <string name="result_of_ques_7"> </string>
+
+    <string name="ques8">Q8.</string>
+    <string name="eighth_ques">Which of the following comes in the category of sense organs?</string>
+    <string name="feet">Feet</string>
+    <string name="eyes">Eyes</string>
+    <string name="nose">Nose</string>
+    <string name="ears">Ears</string>
+    <string name="result_of_ques_8"> </string>
+
+    <string name="result">result</string>
+</resources>
