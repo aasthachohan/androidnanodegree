@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicpicker.CategoriesActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/categories_description"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="60dp"
+            android:background="#FCE4EC"
+            android:hint="@string/search"
+            android:paddingLeft="20dp"
+            android:textSize="25sp" />
+
+
+        <TextView
+            android:id="@+id/romantic_text"
+            style="@style/categories_style"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            android:text="@string/romantic" />
+
+        <ImageView
+            android:id="@+id/romantic_image"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="110dp"
+            android:src="@drawable/romantic" />
+
+        <TextView
+            android:id="@+id/sad_text"
+            style="@style/categories_style"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="100dp"
+            android:text="@string/sad" />
+
+
+        <ImageView
+            android:id="@+id/sad_image"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="110dp"
+            android:src="@drawable/sad" />
+
+        <TextView
+            android:id="@+id/trance_text"
+            style="@style/categories_style"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="290dp"
+            android:text="@string/trance" />
+
+        <ImageView
+            android:id="@+id/trance_image"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="300dp"
+            android:src="@drawable/trance" />
+
+        <TextView
+            android:id="@+id/hiphop_text"
+            style="@style/categories_style"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="290dp"
+            android:text="@string/hiphop" />
+
+        <ImageView
+            android:id="@+id/hiphop_image"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="300dp"
+            android:src="@drawable/hiphop" />
+
+        <TextView
+            android:id="@+id/workout_text"
+            style="@style/categories_style"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="490dp"
+            android:text="@string/workout" />
+
+        <ImageView
+            android:id="@+id/workout_image"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="500dp"
+            android:src="@drawable/workout" />
+
+        <TextView
+            android:id="@+id/jazz_text"
+            style="@style/categories_style"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="490dp"
+            android:text="@string/jazz" />
+
+        <ImageView
+            android:id="@+id/jazz_image"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="500dp"
+            android:src="@drawable/jazz" />
+    </RelativeLayout>
+</ScrollView>

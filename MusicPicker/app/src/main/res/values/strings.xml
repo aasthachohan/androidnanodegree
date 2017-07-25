@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Music Picker</string>
+
+    <string name="categories">Categories</string>
+    <string name="buy">Buy</string>
+    <string name="search">Search</string>
+    <string name="buy_songs">Buy Songs Online</string>
+
+    <string name="romantic">Romantic</string>
+    <string name="workout">Workout</string>
+    <string name="sad">Sad</string>
+    <string name="trance">Trance</string>
+    <string name="hiphop">Hip Hop</string>
+    <string name="melody">Melody</string>
+    <string name="jazz">Jazz</string>
+
+    <string name="romanticSongs">Romantic Songs</string>
+    <string name="workoutSongs">Workout Songs</string>
+    <string name="sadSongs">Sad Songs</string>
+    <string name="tranceSongs">Trance Songs</string>
+    <string name="hiphopSongs">HipHop Songs</string>
+    <string name="melodySongs">Melody Songs</string>
+    <string name="jazzSongs">Jazz Songs</string>
+
+    <string name="song1">Song 1</string>
+    <string name="song2">Song 2</string>
+    <string name="song3">Song 3</string>
+    <string name="song4">Song 4</string>
+    <string name="song5">Song 5</string>
+    <string name="song6">Song 6</string>
+    <string name="song7">Song 7</string>
+
+    <string name="categories_description">This activity shows different categories of the songs.</string>
+    <string name="hiphopsongs_description">This activity shows hiphop songs list.</string>
+    <string name="romanticsongs_description">This activity shows romantic songs list.</string>
+    <string name="sadsongs_description">This activity shows sad songs list.</string>
+    <string name="jazzsongs_description">This activity shows jazz songs list.</string>
+    <string name="workoutsongs_description">This activity shows workout songs list.</string>
+    <string name="trancesongs_description">This activity shows trance songs list.</string>
+    <string name="main_page_description">This is the main activity.CLICK ANYWHERE TO CONTINUE</string>
+    <string name="menu_description">This activity shows different menu to select from like categories and payment.</string>
+    <string name="buy_description">This activity shows the list of those songs which you want to buy online.</string>
+</resources>

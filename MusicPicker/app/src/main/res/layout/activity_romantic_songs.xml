@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicpicker.RomanticSongs">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/romanticsongs_description" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/black" />
+
+        <LinearLayout
+            style="@style/songs_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                style="@style/songs_names"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/song1" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="230dp"
+                android:src="@drawable/playicon" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/songs_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/songs_names"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/song2" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="230dp"
+                android:src="@drawable/playicon" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/songs_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/songs_names"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/song3" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="230dp"
+                android:src="@drawable/playicon" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/songs_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/songs_names"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/song4" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="230dp"
+                android:src="@drawable/playicon" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/songs_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/songs_names"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/song5" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="230dp"
+                android:src="@drawable/playicon" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
